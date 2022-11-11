@@ -15,7 +15,7 @@ const ShowCounter = ({ days, hours, minutes, seconds }) => {
   return (
     <div className="show-counter">
       <a
-        href="https://tapasadhikary.com"
+        href="https://github.com/Jasowills"
         target="_blank"
         rel="noopener noreferrer"
         className="countdown-link"
@@ -26,7 +26,7 @@ const ShowCounter = ({ days, hours, minutes, seconds }) => {
         <p>:</p>
         <DateTimeDisplay value={minutes} type={'Mins'} isDanger={false} />
         <p>:</p>
-        <DateTimeDisplay value={seconds} type={'Seconds'} isDanger={false} />
+        <DateTimeDisplay value={seconds} type={'Sec'} isDanger={false} />
       </a>
     </div>
   );

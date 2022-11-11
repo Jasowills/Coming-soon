@@ -90,6 +90,7 @@ li span {
 }
 .form{
   width: 40%;
+  padding: 0 1rem 0 1rem;
 }
 .email{
   width: 80%;
@@ -97,9 +98,7 @@ li span {
   font-size: 18px;
   border-radius: 3px;
  border: grey 1px solid ;
-  box-shadow: -14px 16px 19px 3px rgba(104, 110, 108, 0.72);
-    -webkit-box-shadow: -14px 16px 19px 3px rgba(104, 110, 108, 0.72);
-    -moz-box-shadow: -14px 16px 19px 3px rgba(104, 110, 108, 0.72);
+ 
 }
 .btn{
   background-color: rgba(0, 0, 255, 0.726);
@@ -151,6 +150,9 @@ li span {
     p{
       font-size: 20px;
     }
+    .email{
+      box-shadow: 0;
+    }
         .show-counter .countdown>p{
           font-size: 20px;
         
@@ -163,6 +165,15 @@ li span {
      }
      .form{
       width: 100%;
+      margin: auto;
+     }
+     .email{
+      width: 70%;
+      margin: auto;
+   
+     }
+     .notify{
+      padding: 1rem;
      }
 }
 
